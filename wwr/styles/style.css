@@ -82,7 +82,7 @@ footer a:hover {
     width: 100%;
 }
 footer p {
-    text-size: 1.2em;
+    font-size: 1.2em;
 }
 footer p a:hover {
     text-decoration: underline;
