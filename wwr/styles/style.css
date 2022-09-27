@@ -1,89 +1,155 @@
+/* if you are using any Google fonts change the font names below to your fonts. 
+Any spaces in your font name should be replaced with a +. 
+Fonts are separated by a & */
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC&family=Gantari&display=swap');
+
+:root {
+    /* Color Palette */
+    --primary-color: #8ECAE6   ;
+    --secondary-color: #219EBC ;
+    --accent1-color: #023047;
+    --accent2-color: #FFB703;
+    --accent3-color: #FB8500;
+  
+    /* Preferred Fonts */
+    --heading-font: 'Amatic SC', Arial, sans-serif;;
+    --paragraph-font: 'Gantari', Arial, sans-serif;
+  
+    /* Site Plan Color Scheme */
+    --headline-color-on-white: #023047;  /* headlines on a white background */ 
+    --headline-color-on-color: #219EBC; /* headlines on a colored background */ 
+    --paragraph-color-on-white: #023047; /* paragraph text on a white background */ 
+    --paragraph-color-on-color: white; /* paragraph text on a colored background */ 
+    --paragraph-background-color: #023047  ;
+    --nav-link-color: #023047;
+    --nav-background-color: #FFB703;
+    --nav-hover-link-color: white;
+    --nav-hover-background-color: #FB8500;
+  }
+
 #content {
-    max-width: 1600px;
-    margin: 0 auto;
-}
+      margin: 0 auto;
+      max-width: 1600px;
+  }
 nav a {
-    text-align: center;
-    color: blue;
-    text-decoration: none;
-}
+      color: blue;
+      text-align: center;
+      text-decoration: none;
+      padding: 35px;
+  }
 nav a:hover {
-    text-align: center;
-    color: lightsteelblue;
-}
+      color: lightsteelblue;
+      text-align: center;
+  }
 #hero_msg h1, #hero_msg h4 {
-    text-align: center;
-    color: black;
-}
+      color: black;
+      text-align: center;
+  }
 .button_box {
-    text-align: center;
-    color: black;
-}
+      color: black;
+      text-align: center;
+  }
 main section {
-    text-align: center;
-}
+      text-align: center;
+  }
 #background {
-    height: 725px;
-}
+      height: 725px;
+  }
 body {
-    background-color: #8ECAE6;
-}
+      background-color: #8ECAE6;
+      font-size: 22px;
+      font-family: var(--paragraph-font);
+      margin: 0;
+      padding: 0;
+  }
 header{
-    background-color: #219EBC;
-}
+      background-color: #219EBC;
+  }
 .book, .join{
-    background-color: #FFB703;
-    color: black;
-    text-decoration: none;
-}
+      background-color: #FFB703;
+      color: black;
+      text-decoration: none;
+      font-size: 18px;
+      padding: 15px 30px;
+      margin-top: 50px;
+      border-radius: 5pxf;
+  }
 .book:hover, .join:hover {
-    background-color: #FB8500;
-    color: black;
-}
+      background-color: #FB8500;
+      color: black;
+  }
 #background {
-    height: 725px;
-    background-color: #FFB703;
-}
+      background-color: #FFB703;
+      height: 725px;
+  }
 .msg {
-    background-color: #FB8500;
-}
+      background-color: #FB8500;
+      line-height: 1.5em;
+      padding: 35px;
+  }
 footer {
-    background-color: #219EBC;
-}
+      background-color: #219EBC;
+      padding: 25px 50px;
+  }
 .home_title {
-    color: black;
-}
+      color: black;
+      font-family: var(--heading-font) ;
+      font-size: 2em;
+      margin-top: 10px;
+  }
 h4 {
-    color: black;
-}
+      color: black;
+  }
 .msg h2 {
-    color: black;
-}
+      color: black;
+      font-family: var(--heading-font);
+  }
 .msg p {
-    color: black;
-}
+      color: black;
+      font-size: .8em;
+      padding-bottom: 15px;
+  }
 footer h3 {
-    color: black;
-}
+      color: black;
+  }
 footer a {
-    color: black;
-    text-decoration: none;
-}
+      color: black;
+      text-decoration: none;
+  }
 footer a:hover {
-    color: white;
-}
+      color: white;
+  }
 .logo {
-    width: 80px;
-}
+      width: 80px;
+  }
 .icon {
-    width: 80px;
-}
+      width: 80px;
+      padding-top: 10px;
+  }
 #hero_img {
-    width: 100%;
-}
+      width: 100%;
+  }
 footer p {
-    font-size: 1.2em;
-}
+      font-size: 1.2em;
+  }
 footer p a:hover {
-    text-decoration: underline;
-}  
+      text-decoration: underline;
+  }  
+h2 {
+    margin: 0;
+}
+#logo_link {
+    padding-top: 5px;
+}
+footer .social img {
+    padding-top: 15px;
+}
+.rivers_card, .camping_card, .rapids_card {
+    margin: 200px 0;
+}
+.card_img {
+    border: 10px solid var(--accent3-color);
+}
+main section img {
+    box-sizing: border-box;
+}
