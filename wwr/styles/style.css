@@ -213,7 +213,7 @@ main {
 }
 
 @media screen and (max-width: 900px) {
-  #hero, .home-grid {
+  #hero, .home_grid {
       display: block;
       height: auto;
   }
